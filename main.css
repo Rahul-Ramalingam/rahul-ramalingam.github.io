@@ -625,10 +625,11 @@ input[type="submit"]:hover{
 
 
 
-@media screen and (max-width:760px){
+@media screen and (max-width:768px){
     body{
+        overflow-x: hidden !important;
         background: url("images/sitebg2.jpg") no-repeat center fixed;
-        background-size:auto;
+        background-size: cover;
     }
     .landing-text h1{
         font-size: 15rem;
@@ -651,11 +652,16 @@ input[type="submit"]:hover{
     .section-heading h1{
         font-size: 3rem;
     }
+
+    .about-details{
+        margin-left: 4rem;
+    }
     .about-details .nav-list{
         flex-direction: initial;
     }
     .about-details li{
-        margin:  0 2rem;
+        margin:  0 2rem ;
+
     }
     .icon-container i{
         font-size: 4rem;
@@ -691,6 +697,7 @@ input[type="submit"]:hover{
     .profile-img{
         margin: 0 0 7rem 0;
     }
+    
     .portfolio-item{
         flex-direction: column;
     }
